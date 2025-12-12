@@ -10,21 +10,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="./images/favicon.ico">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <ul id="nav">
-                <li><a href="index.html" id="homebutton"><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></a></li>
-                <li><a href="hypertextproj.html">Hypertext Project</a></li>
+        <ul class="nav">
+                <li><a href="index.html" class="homebutton"><img src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></a></li>
+                <li><a href="hypertextproj.html" id="currentselection">Hypertext Project</a></li>
                 <li><a href="poeticdataproj.html">Poetic Data Project</a></li>
                 <li><a href="comp3.html">Composition #3</a></li>
                 <li><a href="designjournal.html">Design Journal</a></li>
                 <li><a href="artiststatement.html">Artist Statement</a></li>
         </ul>
+        <div class="centered"> 
+            
+        </div>
         <div class="centered">
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vTqdMVhcGs7c4rdlI93m_zS78KvKsXViJTFnxsCfna0pBjGx-Jvz8rTxwsHbzXb_nIZf-KYfnggfJSA/pub?embedded=true" 
-            style="width:58%; height:85vh"></iframe>
+            <div style="display: flex; justify-content: center; gap: 5rem; margin: 0 10%;">
+                <div style="flex: 0 0 70%;">
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTqdMVhcGs7c4rdlI93m_zS78KvKsXViJTFnxsCfna0pBjGx-Jvz8rTxwsHbzXb_nIZf-KYfnggfJSA/pub?embedded=true" 
+                    style="width:58vw; height:85vh"></iframe>
+                </div>
+                <div style="display: flex; align-items: center; flex: 0 0 30%;">
+                    <p>
+                        The Hypertext Project was an assignment on making something akin to hypertext fiction, using Walt Whitman's <em>Song of Myself</em> 
+                        as our starting text. Then, we were to make "enhancements" to it, which would include links to other sections of 
+                        the poem and other sites as we saw fit. <br><br>
+
+                        It's not as heavily interconnected/linked up as the hypertext fiction we explored in class. Still, I think it 
+                        turned out pretty enough. <br><br>
+
+                        The process statement is below. <br>
+                        In case the iframe to the left's aspect ratio is messing things up, you can go to the 
+                        actual Google Doc <a href="https://docs.google.com/document/d/12yADCF0ITrjxXSv11EFxuX0T289LF-PQG_zCkrK1O7c/edit?usp=sharing" target="_blank">here</a>.
+                    </p>
+                </div>
+            </div>
             <br>
             <h2 style="font-weight: 500;">Process Statement:</h2>
             <p style="width:50%">
@@ -68,6 +89,9 @@
                 relatively simple to evoke the same feeling as the very old hypertext
                 literature - like Shelley Jackson's "my body".
             </p>
+        </div>
+        <div class="footer">
+            Powered by a lack of sleep
         </div>
     </body>
 </html>
